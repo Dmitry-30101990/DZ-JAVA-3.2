@@ -8,11 +8,10 @@ public class Main {
         int bonus;
         if (transfer > 1000) {
             bonus = transfer / 100;
-        }
-        else  {
+        } else {
             bonus = 0;
         }
 
         System.out.print("Accrued bonuses " + bonus + "");
-        }
     }
+}
